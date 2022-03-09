@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Laila', sans-serif;
+}
+
+.frontpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    background: url(/files/casino.gif) no-repeat center/cover;
+}
+
+.fph{
+    color: #ffffff;
+    position: absolute;
+    top: 40vh;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 10vh;
+}
+
+.fph h1{
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.row{
+    padding: 20px;
+}
+
+.textwhite{
+    padding: 60px 50px;
+}
+
+.textwhite h2{
+    padding-bottom: 30px ;
+    font-weight: 600;
+}
+
+.textgreen{
+    padding: 0 50px;
+}
+
+.textgreen h2{
+    padding-bottom: 30px ;
+    font-weight: 600;
+}
+
+.greenback{
+    background: #1Db954;
+}
+
+.textpaddingtop{
+    padding-top: 100px;
+}
+
+.whitetextpadding{
+    padding-top: 50px;
+}
+
+.spoticon{
+    width: 5%;
+}
+
+.rebotton{
+    margin: 20px;
+    text-align: center;
+}
+
+footer{
+    background: #1Db954;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
